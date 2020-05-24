@@ -1,10 +1,10 @@
 # message-sender
 pull repository in your local
 ```
-git clone https://github.com/anoopyadavan/message-sender.git
-cd message-sender
+git clone https://github.com/anoopyadavan/texture-sms.git
+cd texture-sms
 ```
-Now you have to install requirement in this project you have to install two library that is json and requests. <br>
+Now you have to install all the requirements which this program is using. <br>
 to install requirements
 ```
 pip install -r requirements.txt
@@ -18,6 +18,6 @@ response = sendPostRequest(URL, 'api-key', 'secret-key', 'stage', num , 'l3xi3',
 ```
 Now run your program 
 ```
-python3 sms.py
+python3 textureSms.py
 ```
 Now you have to enter number on which you want to send and message.
