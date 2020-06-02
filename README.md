@@ -21,3 +21,5 @@ Now run your program
 python3 textureSms.py
 ```
 Now you have to enter number on which you want to send and message.
+
+You can also follow me on <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="anoopyadav5237"><a class="LI-simple-link" href='https://in.linkedin.com/in/anoopyadav5237?trk=profile-badge'>linkedin</a></div>
