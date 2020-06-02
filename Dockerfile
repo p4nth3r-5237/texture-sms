@@ -1,7 +1,9 @@
-FROM  centos
+FROM  ubuntu
 
-RUN /bin/sh -c yum install python-pip -y
+RUN apt-get -y update && apt-get install -y python3-pip 
 RUN  mkdir /code
-COPY sms.py /code/
-COPY requirements.txt /code/
-RUN pip install -r /code/requirements.txt 
+COPY textureSms.py /code
+COPY requirements.txt  /code
+RUN pip3 install -r /code/requirements.txt
+
+
