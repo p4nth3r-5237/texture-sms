@@ -1,6 +1,4 @@
 requests
-json
-os
-time
-sys
-
+times
+simplejson
+termcolor
